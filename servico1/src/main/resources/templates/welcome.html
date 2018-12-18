@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+<title>Serviço 1</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+	<div th:if="${QTDE_BOLAS}">
+		<span th:text="'Quantidade de Bolas ' + ${QTDE_BOLAS}"></span>
+	</div>
+</body>
+</html>
