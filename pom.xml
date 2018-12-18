@@ -11,7 +11,7 @@
 
 	<modules>
 		<module>servico1</module>
-		<module>poc-console</module>
+		<module>ff4j-console</module>
 	</modules>
 
 	<properties>
